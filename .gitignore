@@ -1,0 +1,39 @@
+﻿.kiro/
+# Python
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+.venv/
+pytest_cache/
+.pytest_cache/
+.hypothesis/
+
+# Node
+node_modules/
+rag-frontend/node_modules/
+
+# Environment
+.env
+.env.docker
+
+# Database
+*.db
+chroma_db/
+
+# Logs
+*.log
+
+# OS
+.DS_Store
+Thumbs.db
+
+# VSCode
+.vscode/
+
+# Build
+dist/
+build/
+
+# Misc
+project_structure.txt
